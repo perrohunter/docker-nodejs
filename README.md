@@ -17,7 +17,7 @@ docker build -t tu-cuenta/tu-tag .
 Para correr el contenedor, vamos a mapear el puerto `3000` que la aplicación expone al arrancar por `4000` en nuestro ordenador. 
 
 ```bash
-docker run -p 4000:3000 tu-cuenta/tu-tag
+docker run -it -p 4000:3000 tu-cuenta/tu-tag
 ```
 
 Y visita http://localhost:4000 
